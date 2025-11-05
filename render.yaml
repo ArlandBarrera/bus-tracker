@@ -1,0 +1,58 @@
+services:
+  # postgres db
+  - type: pserv
+    name: bus-db
+    env: docker
+    region: oregon
+    plan: free
+    dockerfilePath: ./db/Dockerfile
+    envVars:
+      - key: POSTGRES_DB
+        value: bus_tracker
+      - key: POSTGRES_USER
+        value: busapp
+      - key: POSTGRES_PASSWORD
+        generateValue: true
+    disk:
+      name: postgres-data
+      mountPath: /var/lib/postgresql/data
+      sizeGB: 1
+  # backend api
+  - type: web
+    name: bus-api
+    env: docker
+    region: oregon
+    plan: free
+    dockerfilePath: ./backend/Dockerfile
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DB_HOST
+        fromService:
+          type: pserv
+          name: bus-db
+          property: host
+      - key: DB_PORT
+        value: 5432
+      - key: DB_NAME
+        value: bus_tracker
+      - key: DB_USER
+        value: busapp
+      - key: DB_PASSWORD
+        fromService:
+          type: pserv
+          name: bus-db
+          envVarKey: POSTGRES_PASSWORD
+      - key: CORS_ORIGIN
+        value: https://bus-tracker.onrender.com
+    healthCheckPath: /api/health
+  # frontend app
+  - type: web
+    name: bus-tracker
+    env: docker
+    region: oregon
+    plan: free
+    dockerfilePath: ./frontend/Dockerfile
+    envVars:
+      - key: REACT_APP_API_URL
+        value: https://bus-api.onrender.com/api
