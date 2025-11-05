@@ -8,6 +8,8 @@ RUN npm install
 
 COPY ./frontend/. .
 
+RUN npm run build
+
 # -- development --
 # EXPOSE 3000
 

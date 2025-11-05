@@ -48,6 +48,7 @@ app.use((req, res) => {
   res.status(404).json({ error: 'Route not found' });
 });
 
+// start server
 async function startServer() {
   try {
     console.log('Conneting to database...');
@@ -62,7 +63,7 @@ async function startServer() {
       console.log('\nBus Tracker API');
       console.log(`Running on: http://${HOST}:${PORT}`);
       console.log(`Environment: ${process.env.NODE_ENV || 'development'}\n`);
-      console.log('Server is ready');;
+      console.log('Server is ready\n');
     });
   } catch (error) {
     console.error('Unable to start server:', error);
