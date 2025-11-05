@@ -13,10 +13,11 @@ services:
         value: busapp
       - key: POSTGRES_PASSWORD
         generateValue: true
-    disk:
-      name: postgres-data
-      mountPath: /var/lib/postgresql/data
-      sizeGB: 1
+    # for 'disk' the plan must be at least 'starter'
+    # disk:
+    #   name: postgres-data
+    #   mountPath: /var/lib/postgresql/data
+    #   sizeGB: 1
   # backend api
   - type: web
     name: bus-api
@@ -44,7 +45,10 @@ services:
           name: bus-db
           envVarKey: POSTGRES_PASSWORD
       - key: CORS_ORIGIN
-        value: https://bus-tracker.onrender.com
+        fromService:
+          type: web
+          name: bus-tracker
+          property: url
     healthCheckPath: /api/health
   # frontend app
   - type: web
