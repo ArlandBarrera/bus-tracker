@@ -1,0 +1,1490 @@
+[
+  {
+    "routeCode": "R-01",
+    "stopName": "Piquera de Buses Punta Delgadita",
+    "stopOrder": 1,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "MS Las Palmeras",
+    "stopOrder": 2,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "MS Kimberly",
+    "stopOrder": 3,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Poste, Punta",
+    "stopOrder": 4,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Instituto Urracá, via Terminal",
+    "stopOrder": 5,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "IPTV, via Terminal",
+    "stopOrder": 6,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Terminal Transporte Santiago, parte frontal",
+    "stopOrder": 7,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Tribunal Electoral Santiago",
+    "stopOrder": 8,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Caseta Estadio Omar Torrijos, via Policlínica",
+    "stopOrder": 9,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "MS Don Vicente",
+    "stopOrder": 10,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Parada junto a Policlínica de Santiago",
+    "stopOrder": 11,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Caseta Policlínica de Santiago, via Mercado",
+    "stopOrder": 12,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Caseta Paso Las Tablas, via Mercado",
+    "stopOrder": 13,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Caseta C. 4a, via Mercado",
+    "stopOrder": 14,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Carnicería Rodríguez, via Mercado",
+    "stopOrder": 15,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "La Vaca",
+    "stopOrder": 16,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Caseta Central Santiago",
+    "stopOrder": 17,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Caseta Plaza Palermo",
+    "stopOrder": 18,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Universidad (USMA, UIP)",
+    "stopOrder": 19,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Bombasa Santiago",
+    "stopOrder": 20,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Distribuidora Alicia",
+    "stopOrder": 21,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "MS Felix Wen",
+    "stopOrder": 22,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Teléfono, 26 Noviembre",
+    "stopOrder": 23,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "MS Cinty Lou",
+    "stopOrder": 24,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Caseta del Marañón",
+    "stopOrder": 25,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Charlie Shop",
+    "stopOrder": 26,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Lava Autos, via San Martín",
+    "stopOrder": 27,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Caseta 9na Policía Nacional",
+    "stopOrder": 1,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Charlie Shop",
+    "stopOrder": 2,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Caseta del Marañón",
+    "stopOrder": 3,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "MS Cinty Lou",
+    "stopOrder": 4,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Distribuidora Alicia",
+    "stopOrder": 5,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Bombasa Santiago",
+    "stopOrder": 6,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "CEBG José Santos Puga",
+    "stopOrder": 7,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Plaza Palermo",
+    "stopOrder": 8,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Lava Auto",
+    "stopOrder": 9,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Santiago Centro",
+    "stopOrder": 10,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Central Santiago",
+    "stopOrder": 11,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Mercado de Santiago",
+    "stopOrder": 12,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Carnicería Rodríguez, via Paso Las Tablas",
+    "stopOrder": 13,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Caseta C. 4a, via Paso Las Tablas",
+    "stopOrder": 14,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Caseta Paso Las Tablas, via Policlínica",
+    "stopOrder": 15,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Caseta Policlínica de Santiago , via Terminal",
+    "stopOrder": 16,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Caseta Estadio Omar Torrijos, via Terminal",
+    "stopOrder": 17,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Terminal Transporte Santiago, lateral izquierdo",
+    "stopOrder": 18,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "IPTV, via Instituto Urracá",
+    "stopOrder": 19,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Instituto Urracá, via Punta",
+    "stopOrder": 20,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Poste, Punta",
+    "stopOrder": 21,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "MS Kimberly",
+    "stopOrder": 22,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "MS Las Palmeras",
+    "stopOrder": 23,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-01",
+    "stopName": "Piquera de Buses Punta Delgadita",
+    "stopOrder": 24,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Terminal Transporte Santiago, parte trasera",
+    "stopOrder": 1,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta Super 99 Santiago",
+    "stopOrder": 2,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta Plaza Palermo",
+    "stopOrder": 3,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Universidad (USMA, UIP)",
+    "stopOrder": 4,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Bombasa Santiago",
+    "stopOrder": 5,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta frente a Piramidal",
+    "stopOrder": 6,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta Cochez",
+    "stopOrder": 7,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta 9na Policía Nacional",
+    "stopOrder": 8,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Charlie Shop",
+    "stopOrder": 9,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta frente a Éxodo",
+    "stopOrder": 10,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta frente a Santiago Mall",
+    "stopOrder": 11,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta frente a Hotel Mykonos",
+    "stopOrder": 12,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta frente a entrada de Cañasillas",
+    "stopOrder": 13,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Primera entrada Urb. San Antonio, via Hopsital",
+    "stopOrder": 14,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Segunda entrada Urb. San Antonio, via Hopsital",
+    "stopOrder": 15,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta entrada Hospital Chicho",
+    "stopOrder": 16,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "UTP",
+    "stopOrder": 17,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta frente a UTP",
+    "stopOrder": 1,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta frente a Hospital Chicho",
+    "stopOrder": 2,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Segunda entrada Urb. San Antonio, via Santiago",
+    "stopOrder": 3,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta entrada a Cañasillas",
+    "stopOrder": 4,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Hotel Mykonos",
+    "stopOrder": 5,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Santiago Mall",
+    "stopOrder": 6,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta junto a Éxodo",
+    "stopOrder": 7,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta frente a Charlie Shop",
+    "stopOrder": 8,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "9na Policía Nacional",
+    "stopOrder": 9,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Caseta 5 de Mayo",
+    "stopOrder": 10,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Estación entrada Santiago",
+    "stopOrder": 11,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "CEBG José Santos Puga",
+    "stopOrder": 12,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Plaza Palermo",
+    "stopOrder": 13,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Lava Auto",
+    "stopOrder": 14,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-02",
+    "stopName": "Terminal Transporte Santiago, lateral derecho",
+    "stopOrder": 15,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Terminal Transporte Santiago, parte trasera",
+    "stopOrder": 1,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta Super 99 Santiago",
+    "stopOrder": 2,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta Plaza Palermo",
+    "stopOrder": 3,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Universidad (USMA, UIP)",
+    "stopOrder": 4,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Bombasa Santiago",
+    "stopOrder": 5,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta frente a Piramidal",
+    "stopOrder": 6,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta Cochez",
+    "stopOrder": 7,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta 9na Policía Nacional",
+    "stopOrder": 8,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Charlie Shop",
+    "stopOrder": 9,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta frente a Éxodo",
+    "stopOrder": 10,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta frente a Santiago Mall",
+    "stopOrder": 11,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta frente a Hotel Mykonos",
+    "stopOrder": 12,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta frente a entrada de Cañasillas",
+    "stopOrder": 13,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Primera entrada Urb. San Antonio, via Hopsital",
+    "stopOrder": 14,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Segunda entrada Urb. San Antonio, via Hopsital",
+    "stopOrder": 15,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta entrada Hospital Chicho",
+    "stopOrder": 16,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "UTP",
+    "stopOrder": 17,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta frente a UTP",
+    "stopOrder": 1,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta frente a Hospital Chicho",
+    "stopOrder": 2,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Segunda entrada Urb. San Antonio, via Santiago",
+    "stopOrder": 3,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta entrada a Cañasillas",
+    "stopOrder": 4,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Hotel Mykonos",
+    "stopOrder": 5,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Santiago Mall",
+    "stopOrder": 6,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta junto a Éxodo",
+    "stopOrder": 7,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta frente a Charlie Shop",
+    "stopOrder": 8,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "9na Policía Nacional",
+    "stopOrder": 9,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Caseta 5 de Mayo",
+    "stopOrder": 10,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Estación entrada Santiago",
+    "stopOrder": 11,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "CEBG José Santos Puga",
+    "stopOrder": 12,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Plaza Palermo",
+    "stopOrder": 13,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Lava Auto",
+    "stopOrder": 14,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-03",
+    "stopName": "Terminal Transporte Santiago, lateral derecho",
+    "stopOrder": 15,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Caseta Plaza Palermo",
+    "stopOrder": 1,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Universidad (USMA, UIP)",
+    "stopOrder": 2,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Bombasa Santiago",
+    "stopOrder": 3,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Caseta frente a Piramidal",
+    "stopOrder": 4,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Caseta Cochez",
+    "stopOrder": 5,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Caseta 9na Policía Nacional",
+    "stopOrder": 6,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Charlie Shop",
+    "stopOrder": 7,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Caseta frente a Éxodo",
+    "stopOrder": 8,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Caseta frente a Santiago Mall",
+    "stopOrder": 9,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Caseta frente a Hotel Mykonos",
+    "stopOrder": 10,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Caseta frente a entrada de Cañasillas",
+    "stopOrder": 11,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Primera entrada Urb. San Antonio, via Hopsital",
+    "stopOrder": 12,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Segunda entrada Urb. San Antonio, via Hopsital",
+    "stopOrder": 13,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "Hospital Chicho",
+    "stopOrder": 14,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-04",
+    "stopName": "UTP",
+    "stopOrder": 15,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta Plaza Palermo",
+    "stopOrder": 1,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Universidad (USMA, UIP)",
+    "stopOrder": 2,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Bombasa Santiago",
+    "stopOrder": 3,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta frente a Piramidal",
+    "stopOrder": 4,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta Cochez",
+    "stopOrder": 5,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta 9na Policía Nacional",
+    "stopOrder": 6,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Charlie Shop",
+    "stopOrder": 7,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta frente a Éxodo",
+    "stopOrder": 8,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta frente a Santiago Mall",
+    "stopOrder": 9,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta frente a Hotel Mykonos",
+    "stopOrder": 10,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta frente a entrada de Cañasillas",
+    "stopOrder": 11,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Primera entrada Urb. San Antonio, via Hopsital",
+    "stopOrder": 12,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Segunda entrada Urb. San Antonio, via Hopsital",
+    "stopOrder": 13,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta entrada Hospital Chicho",
+    "stopOrder": 14,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "UTP",
+    "stopOrder": 15,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta frente a UTP",
+    "stopOrder": 1,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta frente a Hospital Chicho",
+    "stopOrder": 2,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Segunda entrada Urb. San Antonio, via Santiago",
+    "stopOrder": 3,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta entrada a Cañasillas",
+    "stopOrder": 4,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Hotel Mykonos",
+    "stopOrder": 5,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Santiago Mall",
+    "stopOrder": 6,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta junto a Éxodo",
+    "stopOrder": 7,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta frente a Charlie Shop",
+    "stopOrder": 8,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "9na Policía Nacional",
+    "stopOrder": 9,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-05",
+    "stopName": "Caseta 5 de Mayo",
+    "stopOrder": 10,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta Plaza Palermo",
+    "stopOrder": 1,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Universidad (USMA, UIP)",
+    "stopOrder": 2,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Bombasa Santiago",
+    "stopOrder": 3,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta frente a Piramidal",
+    "stopOrder": 4,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta Cochez",
+    "stopOrder": 5,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta 9na Policía Nacional",
+    "stopOrder": 6,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Charlie Shop",
+    "stopOrder": 7,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta frente a Éxodo",
+    "stopOrder": 8,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta frente a Santiago Mall",
+    "stopOrder": 9,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta frente a Hotel Mykonos",
+    "stopOrder": 10,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta frente a entrada de Cañasillas",
+    "stopOrder": 11,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Primera entrada Urb. San Antonio, via Hopsital",
+    "stopOrder": 12,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Segunda entrada Urb. San Antonio, via Hopsital",
+    "stopOrder": 13,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Hospital Chicho",
+    "stopOrder": 14,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "UTP",
+    "stopOrder": 15,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta frente a UTP",
+    "stopOrder": 1,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Hospital Chicho",
+    "stopOrder": 2,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta frente a Hospital Chicho",
+    "stopOrder": 3,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Segunda entrada Urb. San Antonio, via Santiago",
+    "stopOrder": 4,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta entrada a Cañasillas",
+    "stopOrder": 5,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Hotel Mykonos",
+    "stopOrder": 6,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Santiago Mall",
+    "stopOrder": 7,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta junto a Éxodo",
+    "stopOrder": 8,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta frente a Charlie Shop",
+    "stopOrder": 9,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "9na Policía Nacional",
+    "stopOrder": 10,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-06",
+    "stopName": "Caseta 5 de Mayo",
+    "stopOrder": 11,
+    "direction": "inbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-07",
+    "stopName": "Caseta Plaza Palermo",
+    "stopOrder": 1,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-07",
+    "stopName": "Universidad (USMA, UIP)",
+    "stopOrder": 2,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-07",
+    "stopName": "Bombasa Santiago",
+    "stopOrder": 3,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-07",
+    "stopName": "Machetazo",
+    "stopOrder": 4,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  },
+  {
+    "routeCode": "R-07",
+    "stopName": "Boulevard Santiago",
+    "stopOrder": 5,
+    "direction": "outbound",
+    "distanceFromPrevious": 0,
+    "averageArrivalTime": 0
+  }
+]

@@ -1,0 +1,73 @@
+services:
+  # PostgreSQL db with PostGIS
+  postgres:
+    image: postgis/postgis:15-3.3
+    container_name: bus_db
+    environment:
+      POSTGRES_DB: bus_tracker
+      POSTGRES_USER: busapp
+      POSTGRES_PASSWORD: busapp123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d
+    networks:
+      - bus_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U busapp -d bus_tracker"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: bus_api
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      NODE_ENV: development
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: bus_tracker
+      DB_USER: busapp
+      DB_PASSWORD: busapp123
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    networks:
+      - bus_network
+    command: npm run dev
+
+  # Frontend React app
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: bus_frontend
+    depends_on:
+      - backend
+    environment:
+      REACT_APP_API_URL: http://localhost:3001/api
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    networks:
+      - bus_network
+    stdin_open: true
+    tty: true
+
+volumes:
+  postgres_data:
+
+networks:
+  bus_network:
+    driver: bridge

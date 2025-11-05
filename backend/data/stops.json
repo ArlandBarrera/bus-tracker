@@ -1,0 +1,570 @@
+[
+  {
+    "name": "Piquera de Buses Punta Delgadita",
+    "description": "Edificio de buses en Punta Delgadita",
+    "latitude": 8.108514074859997,
+    "longitude": -80.94083943686705,
+    "address": "Via a Punta Delgadita",
+    "landmarks": "Cerca de la Escuela de Punta Delgadita"
+  },
+  {
+    "name": "MS Cinty Lou",
+    "description": "Mini Super Cinty Lou",
+    "latitude": 8.095509215817678,
+    "longitude": -80.96494445687986,
+    "address": "Av. Sur Santiago",
+    "landmarks": "Entrada al Residencial Miramar"
+  },
+  {
+    "name": "Caseta del Marañón",
+    "description": "Caseta entre Miramar y Charlie Shop",
+    "latitude": 8.095218296374876,
+    "longitude": -80.96153047659186,
+    "address": "Av. Sur Santiago",
+    "landmarks": "via Carr. Interamericana"
+  },
+  {
+    "name": "Charlie Shop",
+    "description": "Caseta junto a Restaurante Charlie Shop",
+    "latitude": 8.097655535841298,
+    "longitude": -80.95953264062925,
+    "address": "Carr. Interamericana",
+    "landmarks": "Frente a sucursal de Novey"
+  },
+  {
+    "name": "Caseta frente a Charlie Shop",
+    "description": "Caseta frente al Restaurante Charlie Shop",
+    "latitude": 8.098138325923978,
+    "longitude": -80.95966280743507,
+    "address": "Carr. Interamericana",
+    "landmarks": "Frente a la Mesquita de Santiago"
+  },
+  {
+    "name": "Teléfono, 26 Noviembre",
+    "description": "Cabina telefónica en la Barriada 26 de Noviembre",
+    "latitude": 8.095604132556195,
+    "longitude": -80.96724354075825,
+    "address": "Av. Sur Santiago, Barriada 26 de Noviembre",
+    "landmarks": "Color azul y blanco"
+  },
+  {
+    "name": "MS Felix Wen",
+    "description": "Mini Super Felix Wen",
+    "latitude": 8.095865586774964,
+    "longitude": -80.96813042752923,
+    "address": "Av. Sur Santiago, Barriada 26 de Noviembre",
+    "landmarks": "Frente a Nutre Hogar"
+  },
+  {
+    "name": "Distribuidora Alicia",
+    "description": "Edificio de la Distribuidora Alicia",
+    "latitude": 8.097560405594411,
+    "longitude": -80.96822158931074,
+    "address": "Barriada 26 de Noviembre",
+    "landmarks": "Edificio con azul con logos de Tigo"
+  },
+  {
+    "name": "Bombasa Santiago",
+    "description": "Edificio de Bombasa en Santiago",
+    "latitude": 8.099799597049971,
+    "longitude": -80.9690239541333,
+    "address": "Av. Central",
+    "landmarks": "Junto a la entrada a la Barriada 26 de Novimbre"
+  },
+  {
+    "name": "CEBG José Santos Puga",
+    "description": "Centro Educativo Básico General José Santos Puga",
+    "latitude": 8.099043446784144,
+    "longitude": -80.97253591007527,
+    "address": "Av. Central",
+    "landmarks": "Frente a la USMA y la UIP"
+  },
+  {
+    "name": "Universidad (USMA, UIP)",
+    "description": "Universidades USMA y UIP",
+    "latitude": 8.098946646932937,
+    "longitude": -80.97171513541932,
+    "address": "Av. Central",
+    "landmarks": "En la PLaza España"
+  },
+  {
+    "name": "Plaza Palermo",
+    "description": "Plaza Comercial Palermo",
+    "latitude": 8.097932260966429,
+    "longitude": -80.97363157375949,
+    "address": "Av. Central",
+    "landmarks": "Junto al José Santos Puga, frente a la Plaza Tío Fabio"
+  },
+  {
+    "name": "Caseta Plaza Palermo",
+    "description": "Caseta frente a la Plaza Palermo",
+    "latitude": 8.09775700029769,
+    "longitude": -80.97362755044749,
+    "address": "Av. Central",
+    "landmarks": "Junto al Centro de Eventos Coopeve"
+  },
+  {
+    "name": "Lava Auto",
+    "description": "Lava Auto en la Av. Central",
+    "latitude": 8.097605657966016,
+    "longitude": -80.97650143462205,
+    "address": "Av. Central",
+    "landmarks": "Frente a Global Bank Santiago"
+  },
+  {
+    "name": "Caseta Super 99 Santiago",
+    "description": "Caseta junto a Super 99 Santiago",
+    "latitude": 8.098169496518457,
+    "longitude": -80.9768228725982,
+    "address": "Rt. 33, Av. Central",
+    "landmarks": "Frente a la Estacion de Bomberos Juan Raul Brin"
+  },
+  {
+    "name": "Santiago Centro",
+    "description": "Parada en el centro de Santiago",
+    "latitude": 8.098922356955704,
+    "longitude": -80.9795895281155,
+    "address": "Av. C",
+    "landmarks": "Junto al Sistema Penal Acusatorio"
+  },
+  {
+    "name": "Central Santiago",
+    "description": "Central de Santiago",
+    "latitude": 8.098315591249692,
+    "longitude": -80.98020067369256,
+    "address": "Av. A",
+    "landmarks": "Edificio Orense, junto a Plaza Centenario"
+  },
+  {
+    "name": "Caseta Central Santiago",
+    "description": "Caseta en la Central de Santiago",
+    "latitude": 8.098131108992883,
+    "longitude": -80.98019123213913,
+    "address": "Av. A",
+    "landmarks": "Frente al Edificio Orense"
+  },
+  {
+    "name": "Mercado de Santiago",
+    "description": "Mercado Central de Santiago",
+    "latitude": 8.097971197050843,
+    "longitude": -80.98208327353365,
+    "address": "C. 4a",
+    "landmarks": "Junto a Cooperativa Juan XXIII, Super Carnes del Mercado, El Imán Poderoso"
+  },
+  {
+    "name": "La Vaca",
+    "description": "Super Centro la Vaca",
+    "latitude": 8.098414155281365,
+    "longitude": -80.98258473263988,
+    "address": "C. 4a",
+    "landmarks": "En el Mercado, junto a Super Carnes"
+  },
+  {
+    "name": "Carnicería Rodríguez, via Paso Las Tablas",
+    "description": "Carnicería pequeña",
+    "latitude": 8.100967674716916,
+    "longitude": -80.98259743015704,
+    "address": "Intersección C. 2a, 3a y 4a",
+    "landmarks": "Junto a Llantas Jimmy 16"
+  },
+  {
+    "name": "Carnicería Rodríguez, via Mercado",
+    "description": "Carnicería pequeña",
+    "latitude": 8.100967674716916,
+    "longitude": -80.98259743015704,
+    "address": "Intersección C. 2a, 3a y 4a",
+    "landmarks": "Junto a Llantas Jimmy 16"
+  },
+  {
+    "name": "Caseta C. 4a, via Paso Las Tablas",
+    "description": "Caseta en C. 4a Paso Las Tablas",
+    "latitude": 8.104719769518566,
+    "longitude": -80.98225246728911,
+    "address": "C. 4a",
+    "landmarks": ""
+  },
+  {
+    "name": "Caseta C. 4a, via Mercado",
+    "description": "Caseta en C. 4a Paso Las Tablas",
+    "latitude": 8.104459939872333,
+    "longitude": -80.98231344250658,
+    "address": "C. 4a",
+    "landmarks": ""
+  },
+  {
+    "name": "Caseta Paso Las Tablas, via Policlínica",
+    "description": "Caseta en el centro de Paso las Tablas",
+    "latitude": 8.106152993311365,
+    "longitude": -80.98182691672447,
+    "address": "C. 4a, Paso Las Tablas",
+    "landmarks": "Junto al Parque Paso Las Tablas"
+  },
+  {
+    "name": "Caseta Paso Las Tablas, via Mercado",
+    "description": "Caseta en el centro de Paso las Tablas",
+    "latitude": 8.106152993311365,
+    "longitude": -80.98182691672447,
+    "address": "C. 4a, Paso Las Tablas",
+    "landmarks": "Junto al Parque Paso Las Tablas"
+  },
+  {
+    "name": "Caseta Policlínica de Santiago , via Terminal",
+    "description": "Caseta junto a Policlínica Dr. Horacio Díaz Gómez",
+    "latitude": 8.107446272770153,
+    "longitude": -80.9808789131136,
+    "address": "C. 4a",
+    "landmarks": "Salida frente a la Policínica"
+  },
+  {
+    "name": "Caseta Policlínica de Santiago, via Mercado",
+    "description": "Caseta junto a la Policlínica Dr. Horacio Díaz Gómez",
+    "latitude": 8.107446272770153,
+    "longitude": -80.9808789131136,
+    "address": "C. 4a",
+    "landmarks": "Salida frente a la Policínica"
+  },
+  {
+    "name": "MS Don Vicente",
+    "description": "Mini Super Don Vicente",
+    "latitude": 8.107174538920399,
+    "longitude": -80.97773067650402,
+    "address": "Av. G Norte",
+    "landmarks": "Detrás de Escuela Anexa del Canadá, via Policlínica"
+  },
+  {
+    "name": "Parada junto a Policlínica de Santiago",
+    "description": "Parada cerca de la Policlínica",
+    "latitude": 8.107231960615014,
+    "longitude": -80.97904163096403,
+    "address": "Av. G Norte",
+    "landmarks": "Señalizada por un poste"
+  },
+  {
+    "name": "Caseta Estadio Omar Torrijos, via Terminal",
+    "description": "Caseta frente al Estadio Omar Torrijos Herrera",
+    "latitude": 8.106875745718959,
+    "longitude": -80.97726169320693,
+    "address": "Av. G Norte",
+    "landmarks": "Detrás de Escuela Anexa del Canadá"
+  },
+  {
+    "name": "Caseta Estadio Omar Torrijos, via Policlínica",
+    "description": "Caseta junto al Estadio Omar Torrijos Herrera",
+    "latitude": 8.106929661612291,
+    "longitude": -80.97704260701235,
+    "address": "Av. G Norte",
+    "landmarks": "Estacionamientos del Estadio"
+  },
+  {
+    "name": "Terminal Transporte Santiago, parte trasera",
+    "description": "Terminal de Transporte de Santiago",
+    "latitude": 8.104796822255953,
+    "longitude": -80.97411313692534,
+    "address": "Av. E Nte.",
+    "landmarks": "Estacionamiento de buses"
+  },
+  {
+    "name": "Terminal Transporte Santiago, lateral izquierdo",
+    "description": "Terminal de Transporte de Santiago",
+    "latitude": 8.105367980696537,
+    "longitude": -80.97423946745785,
+    "address": "Av. la Terminal",
+    "landmarks": "Calle del semáforo"
+  },
+  {
+    "name": "Terminal Transporte Santiago, parte frontal",
+    "description": "Terminal de Transporte de Santiago",
+    "latitude": 8.104597988269381,
+    "longitude": -80.97383401698634,
+    "address": "Rt. 33",
+    "landmarks": "Junto a piquera de taxis"
+  },
+  {
+    "name": "Terminal Transporte Santiago, lateral derecho",
+    "description": "Terminal de Transporte de Santiago",
+    "latitude": 8.103816023280991,
+    "longitude": -80.97459522837218,
+    "address": "Av. E Nte.",
+    "landmarks": "Junto a Super Mercado Xtra"
+  },
+  {
+    "name": "IPTV, via Instituto Urracá",
+    "description": "Instituto Profesional Técnico de Veraguas",
+    "latitude": 8.110719561309873,
+    "longitude": -80.9703623722096,
+    "address": "Rt. 33",
+    "landmarks": "Lado de gasolinera Terpel"
+  },
+  {
+    "name": "IPTV, via Terminal",
+    "description": "Instituto Profesional Técnico de Veraguas",
+    "latitude": 8.110527046244618,
+    "longitude": -80.97063595752762,
+    "address": "Rt. 33",
+    "landmarks": "Lado del IPTV"
+  },
+  {
+    "name": "Instituto Urracá, via Punta",
+    "description": "Caseta, lado opuesto",
+    "latitude": 8.111679480997195,
+    "longitude": -80.96844343336467,
+    "address": "Av. Justo Arosemena",
+    "landmarks": "Paso peatonal"
+  },
+  {
+    "name": "Instituto Urracá, via Terminal",
+    "description": "Caseta junto al Instituto Urracá",
+    "latitude": 8.111679480997195,
+    "longitude": -80.96844343336467,
+    "address": "Av. Justo Arosemena",
+    "landmarks": "Paso peatonal"
+  },
+  {
+    "name": "Tribunal Electoral Santiago",
+    "description": "Tribunal Electoral de Santiago",
+    "latitude": 8.105271648598832,
+    "longitude": -80.9758698885965,
+    "address": "Av. Rodolfo Girón R.",
+    "landmarks": "Junto a ISAE Universidad"
+  },
+  {
+    "name": "Caseta 9na Policía Nacional",
+    "description": "Caseta frente a 9na Zona de Policía de Veraguas",
+    "latitude": 8.09909450483761,
+    "longitude": -80.96257900141102,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto al puente peatonal"
+  },
+  {
+    "name": "9na Policía Nacional",
+    "description": "Caseta junto a 9na Zona de Policía de Veraguas",
+    "latitude": 8.099424497831402,
+    "longitude": -80.96268723372262,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto al puente peatonal"
+  },
+  {
+    "name": "Caseta 5 de Mayo",
+    "description": "Caseta con dibujos de Diablos Rojos",
+    "latitude": 8.099788892091729,
+    "longitude": -80.96455803895539,
+    "address": "Carr. Interamericana",
+    "landmarks": "Frente a Cochez"
+  },
+  {
+    "name": "Caseta Cochez",
+    "description": "Caseta de color azul",
+    "latitude": 8.099376579406398,
+    "longitude": -80.96407132510915,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto a Plaza Corotú y Cochez"
+  },
+  {
+    "name": "Caseta frente a Piramidal",
+    "description": "Caseta frente a Hotel Piramidal",
+    "latitude": 8.099890795623084,
+    "longitude": -80.96635158930903,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto a INKAS Restaurant"
+  },
+  {
+    "name": "Caseta junto a Piramidal",
+    "description": "Caseta junto a Hotel Piramidal",
+    "latitude": 8.10021447572429,
+    "longitude": -80.96639760825924,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto a Terminales David Panamá S.A"
+  },
+  {
+    "name": "Estación entrada Santiago",
+    "description": "Gasolinera Delta en la entrada de Santiago",
+    "latitude": 8.100224531227694,
+    "longitude": -80.96779095216117,
+    "address": "Av. Central",
+    "landmarks": "Frente al Edificio Jaisara"
+  },
+  {
+    "name": "Machetazo",
+    "description": "Tienda Departamental El Machetazo",
+    "latitude": 8.102116023744369,
+    "longitude": -80.96639545169269,
+    "address": "Carr. Interamericana",
+    "landmarks": "Centro Comercial Galeria, junto a Spiegel"
+  },
+  {
+    "name": "Plaza Los Tucanes",
+    "description": "Plaza Los Tucanes",
+    "latitude": 8.105248191280156,
+    "longitude": -80.96967835557336,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto a Boulevard Santiago, frente a Plaza Banconal"
+  },
+  {
+    "name": "Boulevard Santiago",
+    "description": "Boulevard de Santiago",
+    "latitude": 8.106535785660967,
+    "longitude": -80.96932097298146,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto a Plaza Los Tucanes, frente a Plaza Banconal"
+  },
+  {
+    "name": "Caseta junto a Éxodo",
+    "description": "Caseta junto a Bar y Restaurante Éxodo",
+    "latitude": 8.096007415323628,
+    "longitude": -80.95493636203902,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto a Papa Johns Pizza"
+  },
+  {
+    "name": "Caseta frente a Éxodo",
+    "description": "Caseta frente a Bar y Restaurante Éxodo",
+    "latitude": 8.095704384141952,
+    "longitude": -80.95523470368275,
+    "address": "Carr. Interamericana",
+    "landmarks": "Entrada a La Florecita"
+  },
+  {
+    "name": "Santiago Mall",
+    "description": "Mall de Santiago",
+    "latitude": 8.095645576486922,
+    "longitude": -80.95051652965569,
+    "address": "Carr. Interamericana",
+    "landmarks": "Parte frontal, parada de Buses"
+  },
+  {
+    "name": "Caseta frente a Santiago Mall",
+    "description": "Caseta frente a Mall de Santiago",
+    "latitude": 8.094931714256479,
+    "longitude": -80.9500974591879,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto al semáforo"
+  },
+  {
+    "name": "Hotel Mykonos",
+    "description": "Caseta junto a Hotel Mykonos",
+    "latitude": 8.093023474048646,
+    "longitude": -80.94642592952033,
+    "address": "Carr. Interamericana",
+    "landmarks": "Frente a PriceSmart"
+  },
+  {
+    "name": "Caseta frente a Hotel Mykonos",
+    "description": "Caseta fente a Hotel Mykonos",
+    "latitude": 8.092763542257389,
+    "longitude": -80.94660503177937,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto a Aeropuerto Rubén Cantú"
+  },
+  {
+    "name": "Caseta entrada a Cañasillas",
+    "description": "Caseta junto a entrada a Cañasillas",
+    "latitude": 8.090132397645293,
+    "longitude": -80.94244782628968,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto a paso peatonal"
+  },
+  {
+    "name": "Caseta frente a entrada de Cañasillas",
+    "description": "Caseta frente a la entrada de Cañasillas",
+    "latitude": 8.089435514309278,
+    "longitude": -80.94233595547573,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto a cartel de bienvenida"
+  },
+  {
+    "name": "Primera entrada Urb. San Antonio, via Hopsital",
+    "description": "Frente a segunda entrada de Urbanización San Antonio",
+    "latitude": 8.081425613470454,
+    "longitude": -80.93737423299858,
+    "address": "Carr. Interamericana",
+    "landmarks": "Espacio pequeño de tierra"
+  },
+  {
+    "name": "Segunda entrada Urb. San Antonio, via Hopsital",
+    "description": "Cerca del Hospital",
+    "latitude": 8.079771734485968,
+    "longitude": -80.9365034528425,
+    "address": "Carr. Interamericana",
+    "landmarks": "Espacio pequeño de tierra"
+  },
+  {
+    "name": "Segunda entrada Urb. San Antonio, via Santiago",
+    "description": "Entrada de tierra",
+    "latitude": 8.081507544947485,
+    "longitude": -80.93711620986174,
+    "address": "Carr. Interamericana",
+    "landmarks": "Camino de tierra"
+  },
+  {
+    "name": "Caseta entrada Hospital Chicho",
+    "description": "Caseta junto a entrada a Hospital Dr. Luis \"Chicho\" Fábrega",
+    "latitude": 8.07778319344965,
+    "longitude": -80.93535726298133,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto a puente peatonal"
+  },
+  {
+    "name": "Hospital Chicho",
+    "description": "Hospital Dr. Luis \"Chicho\" Fábrega",
+    "latitude": 8.07669411032296,
+    "longitude": -80.93774810261358,
+    "address": "Carr. Interamericana",
+    "landmarks": "Frente a puertas de entrada del Hospital"
+  },
+  {
+    "name": "Caseta frente a Hospital Chicho",
+    "description": "Caseta frente a Hospital Dr. Luis \"Chicho\" Fábrega",
+    "latitude": 8.077963773982962,
+    "longitude": -80.93507563103633,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto a puente peatonal"
+  },
+  {
+    "name": "UTP",
+    "description": "Universidad Tecnológica de Panamá sede Veraguas",
+    "latitude": 8.076168388198996,
+    "longitude": -80.93394754427209,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto al puente peatonal"
+  },
+  {
+    "name": "Caseta frente a UTP",
+    "description": "Caseta frente a la UTP",
+    "latitude": 8.076303014672083,
+    "longitude": -80.93369560382426,
+    "address": "Carr. Interamericana",
+    "landmarks": "Junto a puente peatonal"
+  },
+  {
+    "name": "MS Las Palmeras",
+    "description": "Mini Super Las Palmeras",
+    "latitude": 8.11251413143764,
+    "longitude": -80.95223034705384,
+    "address": "Via a Punta Delgadita",
+    "landmarks": "Caseta"
+  },
+  {
+    "name": "MS Kimberly",
+    "description": "Mini Super Kimberly",
+    "latitude": 8.110464811242196,
+    "longitude": -80.96163393254479,
+    "address": "C. 24 E Nte",
+    "landmarks": "Caseta"
+  },
+  {
+    "name": "Poste, Punta",
+    "description": "Poste de parada via Punta Delgadita",
+    "latitude": 8.108877737922251,
+    "longitude": -80.96767145352746,
+    "address": "C. 24 E Nte",
+    "landmarks": "Poste de Parada"
+  },
+  {
+    "name": "Lava Autos, via San Martín",
+    "description": "Lava Autos en la Barriada Santa Eduviges, San Martín",
+    "latitude": 8.107747391481908,
+    "longitude": -80.9647651857005,
+    "address": "Barriada Santa Eduviges",
+    "landmarks": "Caseta"
+  }
+]

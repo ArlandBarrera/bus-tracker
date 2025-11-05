@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Punta Mercado",
+    "code": "R-01",
+    "color": "#e74c3c",
+    "description": "Punta Delgadita, Mercado en el centro de Santiago",
+    "farePrice": 0.40,
+    "operatingHours": {
+      "start": "06:00",
+      "end": "19:00",
+      "days": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+    }
+  },
+  {
+    "name": "El Espino Santiago",
+    "code": "R-02",
+    "color": "#e67e22",
+    "description": "El Espino, Terminal de Transporte de Santiago",
+    "farePrice": 0.40,
+    "operatingHours": {
+      "start": "06:00",
+      "end": "19:00",
+      "days": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+    }
+  },
+  {
+    "name": "Santiago Atalaya",
+    "code": "R-03",
+    "color": "#f1c40f",
+    "description": "Atalaya, Terminal de Transporte de Santiago",
+    "farePrice": 0.40,
+    "operatingHours": {
+      "start": "06:00",
+      "end": "19:00",
+      "days": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+    }
+  },
+  {
+    "name": "Urb. San Antonio",
+    "code": "R-04",
+    "color": "#27ae60",
+    "description": "Urbanización de San Antonio, Terminal de Transporte de Santiago",
+    "farePrice": 0.40,
+    "operatingHours": {
+      "start": "06:00",
+      "end": "19:00",
+      "days": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+    }
+  },
+  {
+    "name": "Tebario Santiago",
+    "code": "R-05",
+    "color": "#3498db",
+    "description": "Tebario, Terminal de Transporte de Santiago",
+    "farePrice": 0.40,
+    "operatingHours": {
+      "start": "06:00",
+      "end": "19:00",
+      "days": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+    }
+  },
+  {
+    "name": "El Pedrito Terminal",
+    "code": "R-06",
+    "color": "#9b59b6",
+    "description": "El Pedrito, Terminal de Transporte de Santiago",
+    "farePrice": 0.40,
+    "operatingHours": {
+      "start": "06:00",
+      "end": "19:00",
+      "days": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+    }
+  },
+  {
+    "name": "Forestal Mercado",
+    "code": "R-07",
+    "color": "#53d1df",
+    "description": "Forestal, Mercado de Santiago",
+    "farePrice": 0.40,
+    "operatingHours": {
+      "start": "06:00",
+      "end": "19:00",
+      "days": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+    }
+  }
+]
