@@ -11,15 +11,7 @@ const analyticsRoutes = require('./routes/analyticsRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-
-// ---- production ----
-// production host
-const HOST = "0.0.0.0";
-
-app.listen(PORT, HOST, () => {
-  console.log(`Server listening on ${HOST}:${PORT}`);
-});
-// -------------------
+const HOST = process.env.HOST || "0.0.0.0";
 
 // Middleware
 app.use(helmet());
@@ -58,21 +50,31 @@ app.use((req, res) => {
 
 async function startServer() {
   try {
+    console.log('Conneting to database...');
     await sequelize.authenticate();
     console.log('Database connection established');
 
-    await sequelize.sync({ alter: true });
+    console.log('Synchronizing database models...');
+    await sequelize.sync({ alter: process.env.NODE_ENV !== 'production' });
     console.log('Database models synchronized');
 
-    app.listen(PORT, () => {
+    app.listen(PORT, HOST, () => {
       console.log('\nBus Tracker API');
-      console.log(`Running on: http://localhost:${PORT}`);
+      console.log(`Running on: http://${HOST}:${PORT}`);
       console.log(`Environment: ${process.env.NODE_ENV || 'development'}\n`);
+      console.log('Server is ready');;
     });
   } catch (error) {
     console.error('Unable to start server:', error);
     process.exit(1);
   }
 }
+
+// shutdown
+process.on('SIGTERM', async () => {
+  console.log('SIGTERM received, shutting down..');
+  await sequelize.close();
+  process.exit(0);
+});
 
 startServer();
