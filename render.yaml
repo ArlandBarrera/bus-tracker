@@ -45,10 +45,7 @@ services:
           name: bus-db
           envVarKey: POSTGRES_PASSWORD
       - key: CORS_ORIGIN
-        fromService:
-          type: web
-          name: bus-tracker
-          property: url
+        value: https://bus-tracker.onrender.com
     healthCheckPath: /api/health
   # frontend app
   - type: web
