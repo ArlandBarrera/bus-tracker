@@ -10,4 +10,8 @@ COPY ./backend/. .
 
 EXPOSE 3001
 
-CMD ["npm", "run", "dev"]
+# development command
+# CMD ["npm", "run", "dev"]
+
+# production command
+CMD ["npm", "start"]

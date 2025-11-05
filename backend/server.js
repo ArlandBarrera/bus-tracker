@@ -12,6 +12,15 @@ const analyticsRoutes = require('./routes/analyticsRoutes');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+// ---- production ----
+// production host
+const HOST = "0.0.0.0";
+
+app.listen(PORT, HOST, () => {
+  console.log(`Server listening on ${HOST}:${PORT}`);
+});
+// -------------------
+
 // Middleware
 app.use(helmet());
 app.use(cors());
