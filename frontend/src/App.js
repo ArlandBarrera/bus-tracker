@@ -24,6 +24,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('map');
   const [systemStats, setSystemStats] = useState(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   // Fetch data on mount
   useEffect(() => {
@@ -102,163 +103,204 @@ function App() {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center h-screen">
-        <div className="text-xl">Cargando sistema de buses...</div>
+      <div className="loading-container">
+        <div className="loading-spinner"></div>
+        <div className="loading-text">Cargando sistema de buses...</div>
       </div>
     );
   }
 
   return (
-    <div className="h-screen flex flex-col">
+    <div className="app-container">
       {/* Header */}
-      <header className="bg-blue-600 text-white p-4 shadow-lg">
-        <h1 className="text-2xl font-bold">Sistema de Buses - Santiago de Veraguas</h1>
-        <p className="text-sm text-blue-100">Rastreador de Rutas de Transporte</p>
+      <header className="app-header">
+        <button 
+          className="menu-toggle"
+          onClick={() => setSidebarOpen(!sidebarOpen)}
+          aria-label="Toggle menu"
+        >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M3 12h18M3 6h18M3 18h18" />
+          </svg>
+        </button>
+        <div className="header-content">
+          <h1 className="header-title">Buses Santiago</h1>
+          <p className="header-subtitle">Veraguas</p>
+        </div>
       </header>
 
       {/* Navigation Tabs */}
-      <nav className="bg-white border-b">
-        <div className="flex space-x-4 p-2">
-          <button
-            onClick={() => setActiveTab('map')}
-            className={`px-4 py-2 rounded ${activeTab === 'map' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-50'}`}
-          >
-            Mapa
-          </button>
-          <button
-            onClick={() => setActiveTab('routes')}
-            className={`px-4 py-2 rounded ${activeTab === 'routes' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-50'}`}
-          >
-            Rutas
-          </button>
-          <button
-            onClick={() => setActiveTab('stops')}
-            className={`px-4 py-2 rounded ${activeTab === 'stops' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-50'}`}
-          >
-            Paradas
-          </button>
-          <button
-            onClick={() => setActiveTab('analytics')}
-            className={`px-4 py-2 rounded ${activeTab === 'analytics' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-50'}`}
-          >
-            Estadísticas
-          </button>
-        </div>
+      <nav className="nav-tabs">
+        <button
+          onClick={() => { setActiveTab('map'); setSidebarOpen(true); }}
+          className={`nav-tab ${activeTab === 'map' ? 'active' : ''}`}
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          <span>Mapa</span>
+        </button>
+        <button
+          onClick={() => { setActiveTab('routes'); setSidebarOpen(true); }}
+          className={`nav-tab ${activeTab === 'routes' ? 'active' : ''}`}
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <rect x="3" y="3" width="7" height="7" />
+            <rect x="14" y="3" width="7" height="7" />
+            <rect x="14" y="14" width="7" height="7" />
+            <rect x="3" y="14" width="7" height="7" />
+          </svg>
+          <span>Rutas</span>
+        </button>
+        <button
+          onClick={() => { setActiveTab('stops'); setSidebarOpen(true); }}
+          className={`nav-tab ${activeTab === 'stops' ? 'active' : ''}`}
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 6v6l4 2" />
+          </svg>
+          <span>Paradas</span>
+        </button>
+        <button
+          onClick={() => { setActiveTab('analytics'); setSidebarOpen(true); }}
+          className={`nav-tab ${activeTab === 'analytics' ? 'active' : ''}`}
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M18 20V10M12 20V4M6 20v-6" />
+          </svg>
+          <span>Stats</span>
+        </button>
       </nav>
 
       {/* Main Content */}
-      <main className="flex-1 flex overflow-hidden">
+      <main className="main-content">
         {/* Sidebar */}
-        <aside className="w-80 bg-white border-r overflow-y-auto">
-          {activeTab === 'map' && (
-            <div className="p-4">
-              <h2 className="text-lg font-semibold mb-4">Rutas Disponibles</h2>
-              {routes.length === 0 ? (
-                <p className="text-gray-500">No hay rutas registradas aún.</p>
-              ) : (
-                <div className="space-y-2">
-                  {routes.map(route => (
-                    <button
-                      key={route.id}
-                      onClick={() => setSelectedRoute(selectedRoute === route.id ? null : route.id)}
-                      className={`w-full text-left p-3 rounded border ${
-                        selectedRoute === route.id 
-                          ? 'bg-blue-50 border-blue-500' 
-                          : 'hover:bg-gray-50'
-                      }`}
-                    >
-                      <div className="flex items-center gap-2">
-                        <div 
-                          className="w-4 h-4 rounded"
-                          style={{ backgroundColor: route.color }}
-                        />
-                        <div>
-                          <div className="font-semibold">{route.code}</div>
-                          <div className="text-sm text-gray-600">{route.name}</div>
-                          <div className="text-xs text-gray-500">
-                            {route.totalStops} paradas
+        <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
+          <div className="sidebar-header">
+            <h2 className="sidebar-title">
+              {activeTab === 'map' && 'Rutas Disponibles'}
+              {activeTab === 'routes' && 'Lista de Rutas'}
+              {activeTab === 'stops' && 'Paradas de Bus'}
+              {activeTab === 'analytics' && 'Estadísticas'}
+            </h2>
+            <button 
+              className="sidebar-close"
+              onClick={() => setSidebarOpen(false)}
+            >
+              ✕
+            </button>
+          </div>
+
+          <div className="sidebar-content">
+            {activeTab === 'map' && (
+              <>
+                {routes.length === 0 ? (
+                  <p className="empty-state">No hay rutas registradas aún.</p>
+                ) : (
+                  <div className="route-list">
+                    {routes.map(route => (
+                      <button
+                        key={route.id}
+                        onClick={() => {
+                          setSelectedRoute(selectedRoute === route.id ? null : route.id);
+                          if (window.innerWidth < 768) setSidebarOpen(false);
+                        }}
+                        className={`route-card ${selectedRoute === route.id ? 'selected' : ''}`}
+                      >
+                        <div className="route-color" style={{ backgroundColor: route.color }} />
+                        <div className="route-info">
+                          <div className="route-code">{route.code}</div>
+                          <div className="route-name">{route.name}</div>
+                          <div className="route-stops">{route.totalStops} paradas</div>
+                        </div>
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {activeTab === 'routes' && (
+              <>
+                {routes.length === 0 ? (
+                  <p className="empty-state">No hay rutas registradas.</p>
+                ) : (
+                  <div className="route-details-list">
+                    {routes.map(route => (
+                      <div key={route.id} className="route-detail-card">
+                        <div className="route-header">
+                          <div className="route-color" style={{ backgroundColor: route.color }} />
+                          <h3 className="route-title">{route.code} - {route.name}</h3>
+                        </div>
+                        <p className="route-description">{route.description}</p>
+                        <div className="route-meta">
+                          <div className="meta-item">
+                            <span className="meta-icon">📍</span>
+                            <span>{route.totalStops} paradas</span>
                           </div>
+                          {route.farePrice && (
+                            <div className="meta-item">
+                              <span className="meta-icon">💵</span>
+                              <span>${route.farePrice}</span>
+                            </div>
+                          )}
                         </div>
                       </div>
-                    </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {activeTab === 'stops' && (
+              <>
+                <div className="stops-count">Total: {stops.length} paradas</div>
+                <div className="stops-list">
+                  {stops.map(stop => (
+                    <div key={stop.id} className="stop-card">
+                      <h3 className="stop-name">{stop.name}</h3>
+                      {stop.address && <p className="stop-address">{stop.address}</p>}
+                      {stop.landmarks && <p className="stop-landmarks">{stop.landmarks}</p>}
+                      <div className="stop-badge">
+                        {stop.routeCount} ruta{stop.routeCount !== 1 ? 's' : ''}
+                      </div>
+                    </div>
                   ))}
                 </div>
-              )}
-            </div>
-          )}
+              </>
+            )}
 
-          {activeTab === 'routes' && (
-            <div className="p-4">
-              <h2 className="text-lg font-semibold mb-4">Lista de Rutas</h2>
-              {routes.length === 0 ? (
-                <p className="text-gray-500">No hay rutas registradas.</p>
-              ) : (
-                routes.map(route => (
-                  <div key={route.id} className="mb-4 p-3 border rounded">
-                    <div className="flex items-center gap-2 mb-2">
-                      <div 
-                        className="w-6 h-6 rounded"
-                        style={{ backgroundColor: route.color }}
-                      />
-                      <h3 className="font-semibold">{route.code} - {route.name}</h3>
-                    </div>
-                    <p className="text-sm text-gray-600 mb-2">{route.description}</p>
-                    <div className="text-sm">
-                      <div>📍 Paradas: {route.totalStops}</div>
-                      {route.farePrice && <div>💵 Tarifa: ${route.farePrice}</div>}
-                    </div>
-                  </div>
-                ))
-              )}
-            </div>
-          )}
-
-          {activeTab === 'stops' && (
-            <div className="p-4">
-              <h2 className="text-lg font-semibold mb-4">Paradas de Bus</h2>
-              <div className="text-sm text-gray-600 mb-4">
-                Total: {stops.length} paradas
-              </div>
-              {stops.map(stop => (
-                <div key={stop.id} className="mb-3 p-3 border rounded">
-                  <h3 className="font-semibold">{stop.name}</h3>
-                  {stop.address && <p className="text-sm text-gray-600">{stop.address}</p>}
-                  {stop.landmarks && <p className="text-xs text-gray-500 italic">{stop.landmarks}</p>}
-                  <div className="text-sm mt-2">
-                    <span className="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs">
-                      {stop.routeCount} ruta{stop.routeCount !== 1 ? 's' : ''}
-                    </span>
-                  </div>
+            {activeTab === 'analytics' && systemStats && (
+              <div className="stats-grid">
+                <div className="stat-card">
+                  <div className="stat-value">{systemStats.total_stops || 0}</div>
+                  <div className="stat-label">Total de Paradas</div>
                 </div>
-              ))}
-            </div>
-          )}
-
-          {activeTab === 'analytics' && systemStats && (
-            <div className="p-4">
-              <h2 className="text-lg font-semibold mb-4">Estadísticas del Sistema</h2>
-              <div className="space-y-3">
-                <div className="bg-blue-50 p-3 rounded">
-                  <div className="text-2xl font-bold text-blue-700">{systemStats.total_stops || 0}</div>
-                  <div className="text-sm text-gray-600">Total de Paradas</div>
+                <div className="stat-card">
+                  <div className="stat-value">{systemStats.total_routes || 0}</div>
+                  <div className="stat-label">Rutas Activas</div>
                 </div>
-                <div className="bg-blue-50 p-3 rounded">
-                  <div className="text-2xl font-bold text-blue-700">{systemStats.total_routes || 0}</div>
-                  <div className="text-sm text-gray-600">Rutas Activas</div>
-                </div>
-                <div className="bg-blue-50 p-3 rounded">
-                  <div className="text-2xl font-bold text-blue-700">
-                    {systemStats.avg_routes_per_stop || 0}
-                  </div>
-                  <div className="text-sm text-gray-600">Promedio Rutas por Parada</div>
+                <div className="stat-card">
+                  <div className="stat-value">{systemStats.avg_routes_per_stop || 0}</div>
+                  <div className="stat-label">Promedio Rutas/Parada</div>
                 </div>
               </div>
-            </div>
-          )}
+            )}
+          </div>
         </aside>
 
+        {/* Sidebar Overlay */}
+        {sidebarOpen && (
+          <div 
+            className="sidebar-overlay"
+            onClick={() => setSidebarOpen(false)}
+          />
+        )}
+
         {/* Map Container */}
-        <div className="flex-1">
+        <div className="map-container">
           <MapContainer
             center={SANTIAGO_CENTER}
             zoom={13}
@@ -277,11 +319,11 @@ function App() {
                 icon={createCustomIcon(selectedRoute ? '#888' : '#3498db')}
               >
                 <Popup>
-                  <div>
-                    <h3 className="font-semibold">{stop.name}</h3>
-                    {stop.address && <p className="text-sm">{stop.address}</p>}
-                    {stop.landmarks && <p className="text-xs text-gray-500 italic">{stop.landmarks}</p>}
-                    <div className="mt-2 text-sm">
+                  <div className="popup-content">
+                    <h3 className="popup-title">{stop.name}</h3>
+                    {stop.address && <p className="popup-address">{stop.address}</p>}
+                    {stop.landmarks && <p className="popup-landmarks">{stop.landmarks}</p>}
+                    <div className="popup-routes">
                       <strong>{stop.routeCount}</strong> ruta{stop.routeCount !== 1 ? 's' : ''}
                     </div>
                   </div>
@@ -292,7 +334,6 @@ function App() {
             {/* Display selected route */}
             {routeDetails && (
               <>
-                {/* Outbound route line */}
                 {getRouteCoordinates('outbound').length > 0 && (
                   <Polyline
                     positions={getRouteCoordinates('outbound')}
@@ -302,7 +343,6 @@ function App() {
                   />
                 )}
 
-                {/* Inbound route line (dashed) */}
                 {getRouteCoordinates('inbound').length > 0 && (
                   <Polyline
                     positions={getRouteCoordinates('inbound')}
@@ -313,7 +353,6 @@ function App() {
                   />
                 )}
 
-                {/* Route stops with colored markers */}
                 {routeDetails.outboundStops?.map(stop => stop.latitude && stop.longitude && (
                   <Marker
                     key={`out-${stop.id}`}
@@ -321,15 +360,11 @@ function App() {
                     icon={createCustomIcon(routeDetails.color)}
                   >
                     <Popup>
-                      <div>
-                        <div className="font-semibold">{stop.name}</div>
-                        <div className="text-sm text-gray-600">
-                          Parada #{stop.stopOrder} (Ida)
-                        </div>
+                      <div className="popup-content">
+                        <div className="popup-title">{stop.name}</div>
+                        <div className="popup-order">Parada #{stop.stopOrder} (Ida)</div>
                         {stop.distanceFromPrevious > 0 && (
-                          <div className="text-xs mt-1">
-                            📏 {stop.distanceFromPrevious} km
-                          </div>
+                          <div className="popup-distance">📏 {stop.distanceFromPrevious} km</div>
                         )}
                       </div>
                     </Popup>
@@ -343,40 +378,37 @@ function App() {
 
       {/* Route Details Panel */}
       {routeDetails && (
-        <div className="bg-white border-t p-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div 
-                className="w-8 h-8 rounded"
-                style={{ backgroundColor: routeDetails.color }}
-              />
+        <div className="route-details-panel">
+          <div className="panel-header">
+            <div className="panel-title-section">
+              <div className="route-color-large" style={{ backgroundColor: routeDetails.color }} />
               <div>
-                <h3 className="text-lg font-semibold">
+                <h3 className="panel-route-title">
                   {routeDetails.code} - {routeDetails.name}
                 </h3>
-                <p className="text-sm text-gray-600">{routeDetails.description}</p>
+                <p className="panel-route-description">{routeDetails.description}</p>
               </div>
             </div>
             <button
               onClick={() => setSelectedRoute(null)}
-              className="text-gray-500 hover:text-gray-700 px-3 py-1"
+              className="panel-close"
             >
-              ✕ Cerrar
+              ✕
             </button>
           </div>
-          
-          <div className="flex gap-3 mt-3 text-sm">
-            <div>
-              <div className="text-gray-500">Paradas (Ida)</div>
-              <div className="font-semibold">{routeDetails.outboundStops?.length || 0}</div>
+
+          <div className="panel-stats">
+            <div className="panel-stat">
+              <div className="panel-stat-label">Ida</div>
+              <div className="panel-stat-value">{routeDetails.outboundStops?.length || 0}</div>
             </div>
-            <div>
-              <div className="text-gray-500">Paradas (Regreso)</div>
-              <div className="font-semibold">{routeDetails.inboundStops?.length || 0}</div>
+            <div className="panel-stat">
+              <div className="panel-stat-label">Regreso</div>
+              <div className="panel-stat-value">{routeDetails.inboundStops?.length || 0}</div>
             </div>
-            <div>
-              <div className="text-gray-500">Distancia Total</div>
-              <div className="font-semibold">
+            <div className="panel-stat">
+              <div className="panel-stat-label">Distancia</div>
+              <div className="panel-stat-value">
                 {(routeDetails.totalDistance?.outbound || 0).toFixed(2)} km
               </div>
             </div>
